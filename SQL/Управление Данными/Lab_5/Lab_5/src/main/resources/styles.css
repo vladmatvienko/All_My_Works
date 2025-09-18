@@ -1,0 +1,38 @@
+.root {
+    -fx-background-color: #121212;
+    -fx-font-family: "Arial";
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #BB86FC;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #BB86FC;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #9C27B0;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: white;
+    -fx-border-color: #BB86FC;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.list-view {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: white;
+    -fx-border-color: #BB86FC;
+    -fx-border-radius: 5px;
+}
