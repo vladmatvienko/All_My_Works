@@ -1,0 +1,13 @@
+﻿  HW2.cpp
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(309,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(317,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(398,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(400,34): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(414,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(416,34): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(427,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(429,34): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(443,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(445,34): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW2\HW2.cpp(533,25): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  HW2.vcxproj -> C:\Users\vlado\Desktop\Алгосы\HW2\x64\Debug\HW2.exe

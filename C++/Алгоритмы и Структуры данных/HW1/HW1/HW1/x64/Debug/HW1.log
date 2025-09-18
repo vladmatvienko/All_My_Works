@@ -1,0 +1,10 @@
+﻿  HW1.cpp
+C:\Users\vlado\Desktop\Алгосы\HW1\HW1\HW1\HW1.cpp(269,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW1\HW1\HW1\HW1.cpp(279,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW1\HW1\HW1\HW1.cpp(358,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW1\HW1\HW1\HW1.cpp(360,34): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW1\HW1\HW1\HW1.cpp(374,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW1\HW1\HW1\HW1.cpp(376,34): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW1\HW1\HW1\HW1.cpp(430,21): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\vlado\Desktop\Алгосы\HW1\HW1\HW1\HW1.cpp(447,16): warning C4101: i: неиспользованная локальная переменная
+  HW1.vcxproj -> C:\Users\vlado\Desktop\Алгосы\HW1\HW1\x64\Debug\HW1.exe
