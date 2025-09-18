@@ -1,0 +1,307 @@
+/* styles.css */
+
+/* Общие стили */
+* {
+    box-sizing: border-box; /* Включает padding и border в размер элемента */
+    margin: 0;
+    padding: 0.25rem;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Шрифт */
+    line-height: 1.6; /* Высота строки */
+    color: #000000; /* Цвет текста по умолчанию (черный) */
+    background-color: #ffffff; /* Белый фон */
+}
+
+h1 {
+    padding-top: 2rem;
+}
+
+h2 {
+    padding-top: 2rem;
+}
+
+h3 {
+    padding-top: 2rem;
+}
+
+a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: inherit; /* Наследуем цвет текста */
+}
+
+img {
+    max-width: 100%; /* Картинки не выходят за границы контейнера */
+    height: auto; /* Сохраняем пропорции */
+    display: block; /* Убираем лишний отступ после картинки */
+}
+
+/* Глобальные цвета */
+:root {
+    --blue: #003399; /* Полицейский синий */
+    --red: #cc0000; /* Полицейский красный */
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #cccccc;
+}
+
+/* Резет стилей */
+button, input, select, textarea {
+    font-family: inherit; /* Наследуем шрифт */
+    font-size: 100%; /* Наследуем размер шрифта */
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    body {
+        padding: 0 1rem; /* Добавляем отступы для мобильных устройств */
+    }
+}
+
+/* Грид-система */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+}
+
+.col-4 {
+    flex: 0 0 33.333%;
+}
+
+/* Навигационное меню */
+nav {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu li a {
+    color: var(--white);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: var(--red); /* Меняем цвет при наведении */
+}
+
+/* Подвал */
+footer {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Основные блоки */
+section {
+    padding: 2rem 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--blue);
+    text-align: center;
+}
+
+/* Карточки */
+.card {
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%; /* Занимает всю ширину контейнера */
+    height: 200px; /* Фиксированная высота для изображения */
+    object-fit: cover; /* Сохраняет пропорции и заполняет всё пространство */
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--blue);
+}
+
+.card-text {
+    color: var(--black);
+}
+
+/* Формы */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--red);
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: var(--red);
+}
+
+/* Адаптивность для маленьких экранов */
+@media (max-width: 768px) {
+    nav .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+.success-message {
+    display: none;
+    font-size: 1rem;
+    color: #00c853;
+    background-color: #e8f5e9;
+    padding: 1rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.table-of-contents {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-left: 4px solid var(--blue);
+}
+
+.table-of-contents h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--blue);
+}
+
+.table-of-contents ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table-of-contents li a {
+    display: block;
+    text-decoration: none;
+    color: var(--blue);
+    padding: 0.3rem 0;
+    transition: color 0.3s ease;
+}
+
+.table-of-contents li a:hover {
+    color: var(--red);
+}
+
+/* Стили для кнопки "Наверх" */
+.back-to-top {
+    display: none; /* Скрываем по умолчанию */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    z-index: 9999;
+    transition: opacity 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: var(--red);
+}
+
+/* Показ кнопки при скролле */
+@media (min-width: 768px) {
+    .back-to-top {
+        display: block;
+    }
+}
