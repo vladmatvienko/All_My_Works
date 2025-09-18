@@ -1,0 +1,4 @@
+﻿  2.cpp
+C:\Users\vlado\Desktop\C++\2nd work\2\2\2.cpp(15,16): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\vlado\Desktop\C++\2nd work\2\2\2.cpp(22,16): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  2.vcxproj -> C:\Users\vlado\Desktop\C++\2nd work\2\x64\Debug\2.exe
