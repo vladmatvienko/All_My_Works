@@ -1,0 +1,14 @@
+Hello, world!
+This is a simple text file.
+
+	Line with a tab at the beginning
+Line with a	tab in the middle
+Another line
+
+Line after empty lines
+
+Control character here: ^A
+DEL character here: ^?
+
+
+The end.
